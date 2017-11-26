@@ -7,7 +7,7 @@ if('name' in document.createElement('slot') && 'attachShadow' in document.create
 }
 else{
     let strong = document.createElement('strong');
-    strong.textContent = '⚠️ HTML Slot or Shadow DOM is not supported in your browser.';
+    strong.textContent = '⚠️ HTML Slot or Shadow DOM is not supported in your browser. Please try the demo in another browser.';
     strong.style['color'] = 'red';
     document.body.insertBefore(strong, document.querySelector('h1'))
 }
